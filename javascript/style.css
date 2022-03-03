@@ -1,0 +1,45 @@
+:root {
+  --success-color: green;
+  --error-color: red;
+  --warn-color: rgb(255, 153, 0);
+}
+
+small {
+  left: 10px;
+  bottom: -20px;
+  position: absolute;
+  background-color: white;
+  visibility: hidden;
+}
+
+.error {
+  color: var(--error-color);
+  visibility: visible;
+}
+
+.warn {
+  color: var(--warn-color);
+  visibility: visible;
+}
+
+.success {
+  color: var(--success-color);
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+div {
+  position: relative;
+  margin-bottom: 10px;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+}

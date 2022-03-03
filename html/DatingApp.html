@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>&#128158;DatingApp.com&#128158;</h1>
+    <hr>
+    <form>
+     <h3>Presonal Information</h3><br>
+     <div><label>Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<input type="text" class="name" placeholder="Enter Full Name" maxlength="28"></div><br>
+     <div><label>Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="mail" class="Email" placeholder="Email address"></div><br>
+     <div><label>DOB:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date"></div><br>
+     <div>Mobile no.:&nbsp;&nbsp;<input type="number" placeholder="+91" maxlength="10"></div><br>
+     <div>Gender: <input type="radio" name="gender" value="Male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female" id="female">
+        <label for="female">Female </label>
+     </div><br>
+     <div>Date of proposed outing</div><br>
+     <input type="checkbox"> I have tattoos and piercing <br>
+     <input type="checkbox"> I am more than 2 years older than your daughter/son. <br>
+      <input type="checkbox"> I own my own car (BMW Benz) <br>
+     <input type="checkbox"> I work full-time <br>
+     <input type="checkbox"> My parents are rich <br>
+     Is date at Private place 
+     <select>
+         <option value="None" selected>None</option>
+         <option value="Yes">Yes</option>
+         <option value="No">No</option>
+         <option>Can't Say</option>
+     </select>
+     <br><br>
+     <div>Education Level status 
+         <select>
+            <option value="none">None</option>
+            <option value="OnlySSC">SSC</option>
+            <option value="HSC">HSC 12+</option>
+             <option value="Completed">Graduation Completed</option>
+             <option value="Pursuing">Graduation Pursuing</option>
+     </select></div><br>
+     <div class="section">Essay Section:
+         <p>Why do ypu want to date my daughter/son?</p>
+        <textarea rows="8" cols="50" size="50" data-max-words="50" data-announce="true" placeholder="Write Something......"></textarea>
+     </div><br>
+     <div><label>Annual Income:</label>
+        <select>
+            <option>0 to 2.5LPA</option>
+            <option>2.5 to 5LPA</option>
+            <option>5 to 9LPA</option>
+            <option>10LPA+</option>
+
+        </select></div><br>
+     <div>Bank Statement:<input type="file"><br><br>
+     Upload Photo:<input type="file"></div>
+     <br><br>
+     <input type="submit" name="Submit" class="button">
+     </form>
+</body>
+</html>

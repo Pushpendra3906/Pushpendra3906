@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add City</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="divAdd">
+      <label for="addCity">Add City:</label>
+      <input id="addCity" type="text" onkeypress="removeError()" />
+      <input type="button" onclick="addCity()" value="Add City" />
+    </div>
+    <div>
+      <label>List of Cities:</label>
+      <select id="ddCities">
+        <option value="Delhi">Delhi</option>
+        <option value="Pune">Pune</option>
+        <option value="Chandigarh">Chandigarh</option>
+      </select>
+      <small></small>
+    </div>
+    <script src="addcity.js"></script>
+  </body>
+</html>

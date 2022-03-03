@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="todo.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="myDIV" class="header">
+      <h2>My ToDo List</h2>
+      <input type="text" id="myTask" placeholder="Task..." />
+      <span onclick="newElement(this)" class="addBtn">Add</span>
+    </div>
+
+    <div>
+      <ul id="myUL">
+        <li>Hit the gym <span class="close">&times;</span></li>
+        <li class="checked">Pay bills <span class="close">&times</span></li>
+        <li>Meet Friends <span class="close">&times</span></li>
+        <li>Buy Grocery <span class="close">&times</span></li>
+        <li>Read a book <span class="close">&times</span></li>
+        <li>Organize Room <span class="close">&times</span></li>
+      </ul>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
