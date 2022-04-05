@@ -3,7 +3,7 @@ var listTasks= document.querySelector('#myUL')
 var closeButtons = document.getElementsByClassName('close')
 var lis= document.getElementsByClassName('item')
 
-console.log(task)
+console.log(closeButtons)
 for(var i=0; i< closeButtons.length; i++){
 
     closeButtons[i].onclick= function(){

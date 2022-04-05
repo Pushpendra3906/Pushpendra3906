@@ -5,7 +5,7 @@ var ddCities= document.querySelector('#ddCities')
 
 
 function addCity(){
-    // console.log(ne)
+    
     if(newCity.value==''){
         errorSmall.className= 'error'
         errorSmall.innerText='Please enter a valid city.'
